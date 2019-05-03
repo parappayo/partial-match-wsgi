@@ -27,8 +27,13 @@ class AlphabetTriples:
 		self.current = next_triple(self.current)
 		return result
 
-if __name__ == "__main__":
-	test = AlphabetTriples()
-	for triple in test:
-		print(triple)
+def triples_list():
+	result = []
+	triples = AlphabetTriples()
+	for triple in triples:
+		result.append(triple)
+	return result
 
+if __name__ == "__main__":
+	for triple in triples_list():
+		print(triple)
