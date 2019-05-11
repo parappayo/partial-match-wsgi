@@ -32,7 +32,7 @@ gunicorn service:api
 
 Test the service
 ```
-wget -qO - http://localhost:8000/match
+wget -qO - http://localhost:8000/match?search=the
 ```
 
 # References
@@ -40,5 +40,6 @@ wget -qO - http://localhost:8000/match
 * [virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
 * [Gunicorn](https://gunicorn.org/)
 * [Falcon](http://falconframework.org/)
+* [Falcon Docs](https://falcon.readthedocs.io/en/stable/)
 * [Heroku Redis](https://devcenter.heroku.com/categories/heroku-redis)
 * [List of Every Video Game Ever (v3)](https://pastebin.com/DG1CsVXk)

@@ -33,6 +33,9 @@ def populate_cache(input_file_path, line_limit):
 				break
 			add_to_cache(input_line)
 
+def search(substr):
+	return cache[substr.lower()[0:3]]
+
 if __name__ == "__main__":
 	start = time.time()
 	populate_cache(words_file_path, 1000)
