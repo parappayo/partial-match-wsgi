@@ -1,6 +1,9 @@
 # Test data
 list_of_every_video_game_ever_(v3).txt
 
+# Pip stuff
+Pipfile*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
